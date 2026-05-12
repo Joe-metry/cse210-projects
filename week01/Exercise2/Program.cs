@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Exercise 2: Grade Converter
+        //Author: Ubi, Joseph Bassey
         string passHint = "";
         string grade = "";
         string gradeSign = "";
@@ -59,7 +61,7 @@ class Program
         {
             passHint = "Sorry, you did not pass the class. Better luck next time!";
         }
-        Console.WriteLine($"Your grade is {grade}{gradeSign}");
+        Console.WriteLine($"Your grade is: {grade}{gradeSign}");
         Console.WriteLine(passHint);
     }
 }
