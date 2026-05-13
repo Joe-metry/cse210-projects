@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Exercise 2: Grade Converter
+        // Exercise 2: My Grade Converter
         //Author: Ubi, Joseph Bassey
         string passHint = "";
         string grade = "";

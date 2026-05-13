@@ -5,6 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
+        // This program prompts the user to enter a list of numbers, calculates the
+        // largest number, smallest positive number, sum, average, and sorts the list.
+
+        //Author Ubi, Joseph
         int sum = 0;
         int inputToInt;
         int largestNumber;
@@ -31,14 +35,14 @@ class Program
                 {
                     largestNumber = numbers[i];
                 }
-                if (numbers[i] < smallestNumber)
+                if ((numbers[i] > 0) && (numbers[i] < smallestNumber))
                 {
                     smallestNumber = numbers[i];
                 }
             }
         numbers.Sort();
         Console.WriteLine($"The largest number is: {largestNumber}");
-        Console.WriteLine($"The smallest number is: {smallestNumber}");
+        Console.WriteLine($"The smallest positive number is: {smallestNumber}");
         Console.WriteLine($"The sum of all numbers is: {sum}");
         Console.WriteLine($"The average of all numbers is: {(double)sum / numbers.Count}");
 

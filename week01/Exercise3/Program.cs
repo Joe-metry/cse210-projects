@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Exercise 3: Magic Number Game
+        //Author: Ubi, Joseph Bassey
         string response;
         do
         {
